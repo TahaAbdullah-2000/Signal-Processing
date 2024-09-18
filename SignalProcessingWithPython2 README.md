@@ -1,4 +1,4 @@
-### Hey there!
+### Hey there 👋
 <p>Today, we will explore some foundational concepts of signal processing. We’ll begin by importing essential libraries, including:
 <ul>
     <li>Numpy</li>
@@ -12,4 +12,5 @@ It’s important to note that phase values are often different because they are 
 
 Finally, we calculate the index number of the first signal, allowing us to easily find its magnitude and phase without relying solely on visual inspection of the plots.
 </p>
-### The End... Bye
+
+### The End...Bye ✌
