@@ -4,6 +4,8 @@
     <li>Numpy</li>
     <li>Matplotlib.pyplot</li>
 </ul>
+Next, we initialize several variables such as the sampling frequency, sampling time, amplitude, frequency, and phase angles of three sine waves. After that, we plot these sine waves individually and together using the plot() and stem() functions.
+
 We then apply the Fast Fourier Transform (FFT), which returns both real and imaginary values stored in a variable called spectrum. In Cell 14, we define a new variable called frequency resolution, representing the step size on the x-axis (frequency).
 
 From the spectrum variable, we extract the magnitude and phase values using functions like abs(), deg2rad(), and angle(). To obtain the correct magnitude values, we multiply (2/N) with the spectrum, where the scaling is done with respect to energy.
